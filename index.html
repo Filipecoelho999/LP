@@ -113,22 +113,24 @@
               <div class="d-flex  flex-column flex-lg-row align-items-center">
                 <ul class="navbar-nav  ">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#resultSection">Map <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">About </a>
+                    <a class="nav-link" href="#aboutSection">About </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="service.html">Reservations </a>
+                    <a class="nav-link" href="#serviceSection">Reservations </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Comments</a>
+                    <a class="nav-link" href="#contactSection">Comments</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://teamwebsite.com">Team</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Store</a>
                   </li>
                 </ul>
-                
               </div>
             </div>
           </nav>
@@ -236,7 +238,7 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section id="aboutSection" class="about_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -263,7 +265,7 @@
 
   <!-- service section -->
 
-  <section class="service_section layout_padding">
+  <section id="serviceSection" class="service_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -505,29 +507,14 @@
 
   <!-- result section -->
 
-  <section class="result_section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/result-img.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-5">
-          <div class="detail-box">
-            <h2>
-              BUILT TO BRING <br>
-              BEST RESULTS
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            </p>
-            <a href="">
-              Get A Quote
-            </a>
-          </div>
+  <section id="resultSection" class="result_section">
+    <div class="col-md-6">
+      <div class="map_container">
+        <div class="map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205998.54310936766!2d13.310152784359081!3d-9.073364866496618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a521dc20c07187b%3A0x669096a83cffdbe!2s11%20de%20Novembro%20Stadium!5e0!3m2!1sen!2sus!4v1732131091261!5m2!1sen!2sus"
+            width="800" height="300" frameborder="0" style="border:0; width: 100%; height:100%"
+            allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -537,12 +524,12 @@
 
 
   <!-- contact section -->
-  <section class="contact_section layout_padding">
+  <section id="contactSection" class="contact_section layout_padding">
     <div class="container">
       <div class="heading_container">
         <h2>
           <span>
-            Get In Touch
+            Leave a comment
           </span>
         </h2>
       </div>
@@ -552,15 +539,7 @@
             <form action="">
               <div class="contact_form-container">
                 <div>
-                  <div>
-                    <input type="text" placeholder="Name" />
-                  </div>
-                  <div>
-                    <input type="email" placeholder="Email" />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="Phone Number" />
-                  </div>
+              
                   <div class="mt-5">
                     <input type="text" placeholder="Message" />
                   </div>
@@ -572,16 +551,6 @@
                 </div>
               </div>
             </form>
-          </div>
-          <div class="col-md-6">
-            <div class="map_container">
-              <div class="map-responsive">
-                <iframe
-                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
-                  width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
           </div>
         </div>
       </div>
