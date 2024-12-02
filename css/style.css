@@ -1095,6 +1095,221 @@ a:focus {
 .footer_section a {
   color: #ffffff;
 }
+/* Registration Page Styles (Scoped to .registration-page) */
+.registration-page {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #2a397d, #764ba2); /* Yellowish to Dark Blue */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-page main {
+  width: 450px;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+/* Icons on Both Sides */
+.registration-page .icon-left, .registration-page .icon-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px; /* Icon size */
+  height: auto;
+}
+
+.registration-page .icon-left {
+  left: -480px; /* Adjust left offset */
+}
+
+.registration-page .icon-right {
+  right: -480px; /* Adjust right offset */
+}
+
+.registration-page h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.registration-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.registration-page label {
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+.registration-page input, .registration-page select {
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+}
+
+.registration-page input:focus, .registration-page select:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.registration-page button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registration-page button:hover {
+  background-color: #0056b3;
+}
+
+.registration-page .footer-text {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.registration-page .footer-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.registration-page .footer-text a:hover {
+  text-decoration: underline;
+}
+
+/* Login Page Styles (Scoped to .login-page) */
+.login-page {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #2a397d, #764ba2); /* Yellowish to Dark Blue */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-page main {
+  width: 450px;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+/* Icons on Both Sides */
+.login-page .icon-left, .login-page .icon-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px; /* Icon size */
+  height: auto;
+}
+
+.login-page .icon-left {
+  left: -480px; /* Adjust left offset */
+}
+
+.login-page .icon-right {
+  right: -480px; /* Adjust right offset */
+}
+
+.login-page h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-page label {
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+.login-page input, .login-page select {
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+}
+
+.login-page input:focus, .login-page select:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.login-page button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-page button:hover {
+  background-color: #0056b3;
+}
+
+.login-page .footer-text {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.login-page .footer-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-page .footer-text a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Alert Message */
+.login-page .alert.success {
+  background-color: #d4edda;
+  border-left: 4px solid #28a745;
+  color: #155724;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  text-align: center;
+}
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
